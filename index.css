@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+}
+.sec1{
+    background-image: url(images/background.png);
+    height: 136.5vh;
+    width: 100%;
+}
+
+header{
+    padding: 20px;
+    padding-left: 40px;
+    display: flex;
+}
+header .logo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+header .logo img{
+    width: 80px;
+    object-fit: contain;
+}
+header .logo span{
+    font-size: 30px;
+    padding-top: 5px;
+}
+header .btn button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    border-radius: 60px;
+    padding: 6px;
+    height: 40px;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 900%;
+}
+header .btn button:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+.content{
+    color: white;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.content h1{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.content h4{
+    margin-top: 30px;
+}
+.content button{
+    margin-top: 30px;
+    background:#f1e585;
+    color:black;
+    font-size: 25px;
+    font-weight: initial;
+    border-radius: 60px;
+    height: 55px;
+    width: 220px;
+    border-style: hidden;   
+}
+
+.image img{
+    margin-top: 48px;
+    width: 900px;
+    box-shadow: 10px 1px 25px 12px rgba(0, 0, 0, 0.17);
+}
+.sec1 .content .shade{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    z-index: 100;
+    position: absolute;
+}
+.sec2{
+    display: flex;
+    padding: 80px;
+}
+.sec2 .part2{
+    margin-left: auto;
+}
+.sec2 .part2 img{
+    width: 700px;
+}
+.sec2 .part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 .part1 h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec2 .part1 p{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.693);
+    margin-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sec2 .part1 button{
+    margin-top: 30px;
+    background:#000000;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: initial;
+    border-radius: 60px;
+    height: 55px;
+    width: 220px;
+    border-style: hidden; 
+}
+.sec3{
+    height: 100vh;
+    background: rgb(227, 223, 223);
+    display: flex;
+}
+.sec3  .card1{
+  margin-left: 168px;
+  padding-top: 50px;
+  
+}
+.sec3 .card1 img{
+    width: 360px;
+    margin-top: 100px;
+    
+}
+
+.sec3 .card1 h3{
+  font-size: 23px;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 40px;
+  font-weight: 630;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sec3 .card1 p{
+
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+
+  }
+.sec3 .card1 h6{
+  
+    padding-left: 30px;
+    font-size: 15px;
+    text-decoration-line: underline;
+}
+  .sec3  .card2{
+    margin-left: 70px;
+    padding-top: 50px;
+    
+  }
+  .sec3 .card2 img{
+      width: 360px;
+      margin-top: 100px;
+      
+  }
+  
+  .sec3 .card2 h3{
+    font-size: 23px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-weight: 630;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .sec3 .card2 p{
+  
+      text-align: left;
+      padding-left: 30px;
+      padding-top: 10px;
+  
+    }
+    
+    .sec3 .card2 h6{
+  
+        padding-left: 30px;
+        font-size: 15px;
+        text-decoration-line: underline;
+    }
+
+    .sec3  .card3{
+        margin-left: 70px;
+        padding-top: 50px;
+        
+      }
+      .sec3 .card3 img{
+          width: 360px;
+          margin-top: 100px;
+          
+      }
+      
+      .sec3 .card3 h3{
+        font-size: 23px;
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 40px;
+        font-weight: 630;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .sec3 .card3 p{
+      
+          text-align: left;
+          padding-left: 30px;
+          padding-top: 10px;
+      
+        }
+        
+        .sec3 .card3 h6{
+  
+            padding-left: 30px;
+            font-size: 15px;
+            text-decoration-line: underline;
+        }
+
+        .sec4 {
+            height: 82vh;
+            background-color: rgb(127, 5, 52);
+        }
+        .sec4 .title{
+            color: white;
+            text-align: center;
+            padding-top: 180px;
+            
+            
+        }
+ 
+        .sec4 .title h1{
+            font-size: 370%;
+        }
+        .sec4 .title button{
+            margin-top: 30px;
+            background:white;
+            color:black;
+            font-size: 20px;
+            font-weight: 500;
+            border-radius: 60px;
+            height: 50px;
+            width: 200px;
+            border-style: hidden;   
+        }
+        .sec5{
+            background-color:white;
+          margin: 40px;
+          display: flex;
+        }
+        .sec5 p{
+            
+            font-size: 14 px;
+        }
+        .sec5 img{
+            margin-left: 310px;
+            
+            width: 65px;
+        }
+        .sec5 h3{
+            margin-left: 10px;
+            
+            font-weight: 1;
+        }
+        .sec5 h4{
+            margin-top: 10px;
+            font-size: 17px;
+            margin-left: 15px;
+        
+        }
+        .sec5 h6{
+            margin-top: 14px;
+            margin-left: 360px;
+            font-size: 13px;
+            font-weight: 5px;
+
+        }
